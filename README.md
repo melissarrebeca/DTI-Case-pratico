@@ -218,15 +218,15 @@ Ao iniciar a aplicação, você verá uma tela de boas-vindas seguida do menu pr
 
 O menu principal oferece as seguintes opções:
 
-**Listar Todos os Livros**: Exibe todos os livros cadastrados no sistema.
-**Buscar Livro por ID**: Permite buscar um livro específico pelo seu ID.
-**Buscar Livro por ISBN**: Permite buscar um livro específico pelo seu código ISBN.
-**Buscar Livros por Autor**: Lista todos os livros de um determinado autor.
-**Pesquisar Livros**: Pesquisa livros contendo um termo específico no título, autor, ISBN ou categoria.
-**Cadastrar Novo Livro**: Adiciona um novo livro ao sistema.
-**Atualizar Livro**: Modifica as informações de um livro existente.
-**Excluir Livro**: Remove um livro do sistema.
-**Sair**: Encerra a aplicação.
+- **Listar Todos os Livros**: Exibe todos os livros cadastrados no sistema.
+- **Buscar Livro por ID**: Permite buscar um livro específico pelo seu ID.
+- **Buscar Livro por ISBN**: Permite buscar um livro específico pelo seu código ISBN.
+- **Buscar Livros por Autor**: Lista todos os livros de um determinado autor.
+- **Pesquisar Livros**: Pesquisa livros contendo um termo específico no título, autor, ISBN ou categoria.
+- **Cadastrar Novo Livro**: Adiciona um novo livro ao sistema.
+- **Atualizar Livro**: Modifica as informações de um livro existente.
+- **Excluir Livro**: Remove um livro do sistema.
+- **Sair**: Encerra a aplicação.
 
 ### Funcionalidades Detalhadas
 
