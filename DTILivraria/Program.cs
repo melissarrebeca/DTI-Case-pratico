@@ -17,31 +17,25 @@ namespace DTILivraria
                 
                 MostrarTelaDeBemVindo();
                 
-                // Inicializar sistema de logs
                 LoggerService.InitializeLogger();
                 LoggerService.Information("Aplicação iniciada");
                 
-                // Configurar o banco de dados
                 ConfigurarBancoDeDados();
                 
-                // Configurar as dependências (seguindo o padrão de injeção de dependência)
                 LoggerService.Debug("Configurando dependências...");
                 var repository = new LivroRepository();
                 var controller = new LivroController(repository);
                 var view = new LivroView(controller);
                 LoggerService.Debug("Dependências configuradas com sucesso");
                 
-                // Iniciar a interface do usuário (loop principal)
                 LoggerService.Information("Iniciando interface do usuário");
                 view.ExibirMenuPrincipal();
                 
-                // Quando o usuário sair do sistema
                 LoggerService.Information("Usuário encerrou a aplicação");
                 MostrarTelaDeEncerramento();
             }
             catch (Exception ex)
             {
-                // Tratamento de erros global
                 LoggerService.Critical(ex, "Erro fatal na aplicação");
                 TratarErroGlobal(ex);
             }
@@ -54,17 +48,14 @@ namespace DTILivraria
             
             try
             {
-                // Garantir que o diretório Database existe
                 if (!Directory.Exists("Database"))
                 {
                     Directory.CreateDirectory("Database");
                     LoggerService.Debug("Diretório Database criado");
                 }
                 
-                // Inicializar o banco de dados
                 DatabaseHelper.InitializeDatabase();
                 
-                // Verificar se a tabela Livros foi criada corretamente
                 bool tabelaExiste = DatabaseHelper.TableExists("Livros");
                 
                 if (tabelaExiste)
@@ -84,7 +75,6 @@ namespace DTILivraria
                 throw new Exception($"Erro ao configurar o banco de dados: {ex.Message}", ex);
             }
             
-            // Pequena pausa para o usuário ver a mensagem
             System.Threading.Thread.Sleep(1000);
         }
         
