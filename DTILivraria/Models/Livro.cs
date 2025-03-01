@@ -5,7 +5,6 @@ namespace DTILivraria.Models
 {
     public class Livro
     {
-        // Propriedades básicas
         public int Id { get; set; }
         public string? Titulo { get; set; }
         public string? Autor { get; set; }
@@ -17,8 +16,7 @@ namespace DTILivraria.Models
         public DateTime? DataAquisicao { get; set; }
         public string? Descricao { get; set; }
         public string? Categoria { get; set; }
-
-        // Construtores
+        
         public Livro()
         {
             Quantidade = 0;
@@ -33,7 +31,6 @@ namespace DTILivraria.Models
             Quantidade = 0;
         }
 
-        // Métodos de validação
         public bool ValidarCamposObrigatorios()
         {
             return !string.IsNullOrEmpty(Titulo) &&
@@ -47,10 +44,8 @@ namespace DTILivraria.Models
             if (string.IsNullOrEmpty(ISBN))
                 return false;
 
-            // Remover caracteres não numéricos
             string cleanISBN = Regex.Replace(ISBN, "[^0-9X]", "");
 
-            // Validar ISBN-10 ou ISBN-13
             return ValidarISBN10(cleanISBN) || ValidarISBN13(cleanISBN);
         }
 
@@ -103,10 +98,9 @@ namespace DTILivraria.Models
                 return false;
 
             int anoAtual = DateTime.Now.Year;
-            return AnoPublicacao.Value <= anoAtual && AnoPublicacao.Value >= 1450; // 1450: Invenção da prensa de Gutenberg
+            return AnoPublicacao.Value <= anoAtual && AnoPublicacao.Value >= 1450;
         }
 
-        // Métodos de apresentação
         public override string ToString()
         {
             return $"ID: {Id}, Título: {Titulo}, Autor: {Autor}, ISBN: {ISBN}";
@@ -127,7 +121,6 @@ namespace DTILivraria.Models
                    $"Descrição: {Descricao ?? "Não informada"}";
         }
 
-        // Métodos de negócio
         public int CalcularIdade()
         {
             if (!AnoPublicacao.HasValue)
