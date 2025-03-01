@@ -1,0 +1,121 @@
+2025-03-01 14:19:43.044 [INF] Sistema de Logs inicializado com sucesso
+2025-03-01 14:19:43.103 [INF] Aplicação iniciada
+2025-03-01 14:19:43.107 [INF] Inicializando banco de dados
+2025-03-01 14:19:43.568 [INF] Banco de dados inicializado com sucesso
+2025-03-01 14:19:44.579 [DBG] Configurando dependências...
+2025-03-01 14:19:44.580 [DBG] LivroRepository inicializado
+2025-03-01 14:19:44.580 [DBG] LivroController inicializado
+2025-03-01 14:19:44.580 [DBG] Dependências configuradas com sucesso
+2025-03-01 14:19:44.580 [INF] Iniciando interface do usuário
+2025-03-01 14:19:46.547 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 14:19:46.551 [DBG] Iniciando busca de todos os livros
+2025-03-01 14:19:46.552 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 14:19:46.566 [INF] Busca de todos os livros concluída: 2 livros encontrados
+2025-03-01 14:19:46.568 [INF] Controller: 2 livros listados com sucesso
+2025-03-01 14:21:51.270 [DBG] Controller: Solicitação para cadastrar livro: 'Sistemas Operacionais'
+2025-03-01 14:21:51.278 [DBG] Iniciando busca de livro por ISBN: 978-8521629399
+2025-03-01 14:21:51.278 [DBG] Conexão com banco de dados aberta para busca de livro por ISBN: 978-8521629399
+2025-03-01 14:21:51.279 [WRN] Nenhum livro encontrado com ISBN: 978-8521629399
+2025-03-01 14:21:51.282 [DBG] Iniciando adição de novo livro: 'Sistemas Operacionais'
+2025-03-01 14:21:51.282 [DBG] Conexão com banco de dados aberta para adição de novo livro
+2025-03-01 14:21:51.292 [INF] Livro adicionado com sucesso: ID 7, Título 'Sistemas Operacionais', Autor 'Abraham Silberschatz'
+2025-03-01 14:21:51.295 [INF] Controller: Livro cadastrado com sucesso. ID: 7, Título: 'Sistemas Operacionais'
+2025-03-01 14:22:04.185 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 14:22:04.185 [DBG] Iniciando busca de todos os livros
+2025-03-01 14:22:04.185 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 14:22:04.186 [INF] Busca de todos os livros concluída: 3 livros encontrados
+2025-03-01 14:22:04.188 [INF] Controller: 3 livros listados com sucesso
+2025-03-01 14:49:52.012 [INF] Sistema de Logs inicializado com sucesso
+2025-03-01 14:49:52.063 [INF] Aplicação iniciada
+2025-03-01 14:49:52.065 [INF] Inicializando banco de dados
+2025-03-01 14:49:52.528 [INF] Banco de dados inicializado com sucesso
+2025-03-01 14:49:53.540 [DBG] Configurando dependências...
+2025-03-01 14:49:53.540 [DBG] LivroController inicializado
+2025-03-01 14:49:53.540 [DBG] Dependências configuradas com sucesso
+2025-03-01 14:49:53.540 [INF] Iniciando interface do usuário
+2025-03-01 14:49:55.470 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 14:49:55.470 [DBG] Iniciando busca de todos os livros
+2025-03-01 14:49:55.471 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 14:49:55.481 [INF] Busca de todos os livros concluída: 3 livros encontrados
+2025-03-01 14:49:55.483 [INF] Controller: 3 livros listados com sucesso
+2025-03-01 14:50:08.812 [DBG] Controller: Solicitação para buscar livro por ID: 6
+2025-03-01 14:50:08.812 [DBG] Iniciando busca de livro por ID: 6
+2025-03-01 14:50:08.813 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 6
+2025-03-01 14:50:08.814 [INF] Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:50:08.817 [INF] Controller: Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:50:26.294 [DBG] Controller: Solicitação para buscar livros por autor: 'silberchatz'
+2025-03-01 14:50:26.295 [DBG] Iniciando busca de livros por autor: 'silberchatz'
+2025-03-01 14:50:26.295 [DBG] Conexão com banco de dados aberta para busca de livros por autor: 'silberchatz'
+2025-03-01 14:50:26.296 [INF] Busca por autor 'silberchatz' concluída: 0 livros encontrados
+2025-03-01 14:50:26.298 [INF] Controller: Nenhum livro encontrado para o autor: 'silberchatz'
+2025-03-01 14:50:34.348 [DBG] Controller: Solicitação para buscar livros por autor: 'silberschatz'
+2025-03-01 14:50:34.349 [DBG] Iniciando busca de livros por autor: 'silberschatz'
+2025-03-01 14:50:34.350 [DBG] Conexão com banco de dados aberta para busca de livros por autor: 'silberschatz'
+2025-03-01 14:50:34.350 [INF] Busca por autor 'silberschatz' concluída: 1 livros encontrados
+2025-03-01 14:50:34.353 [INF] Controller: 1 livros encontrados para o autor 'silberschatz'
+2025-03-01 14:50:48.232 [DBG] Controller: Solicitação para buscar livro por ID: 6
+2025-03-01 14:50:48.233 [DBG] Iniciando busca de livro por ID: 6
+2025-03-01 14:50:48.233 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 6
+2025-03-01 14:50:48.234 [INF] Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:50:48.237 [INF] Controller: Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:51:16.042 [DBG] Controller: Solicitação para atualizar livro ID 6: 'Clean Code'
+2025-03-01 14:51:16.048 [DBG] Iniciando busca de livro por ID: 6
+2025-03-01 14:51:16.049 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 6
+2025-03-01 14:51:16.049 [INF] Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:51:16.051 [DBG] Iniciando atualização do livro ID 6: 'Clean Code'
+2025-03-01 14:51:16.052 [DBG] Conexão com banco de dados aberta para atualização do livro ID 6
+2025-03-01 14:51:16.060 [INF] Livro atualizado com sucesso: ID 6, Título 'Clean Code'
+2025-03-01 14:51:16.061 [INF] Controller: Livro atualizado com sucesso ID: 6, Título: 'Clean Code'
+2025-03-01 14:51:27.541 [DBG] Controller: Solicitação para buscar livro por ID: 6
+2025-03-01 14:51:27.541 [DBG] Iniciando busca de livro por ID: 6
+2025-03-01 14:51:27.542 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 6
+2025-03-01 14:51:27.542 [INF] Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:51:27.545 [INF] Controller: Livro encontrado com ID 6: 'Clean Code'
+2025-03-01 14:51:49.029 [DBG] Controller: Solicitação para buscar livro por ID: 7
+2025-03-01 14:51:49.029 [DBG] Iniciando busca de livro por ID: 7
+2025-03-01 14:51:49.029 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 7
+2025-03-01 14:51:49.030 [INF] Livro encontrado com ID 7: 'Sistemas Operacionais'
+2025-03-01 14:51:49.033 [INF] Controller: Livro encontrado com ID 7: 'Sistemas Operacionais'
+2025-03-01 14:51:53.214 [DBG] Controller: Solicitação para deletar livro ID: 7
+2025-03-01 14:51:53.214 [DBG] Iniciando busca de livro por ID: 7
+2025-03-01 14:51:53.215 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 7
+2025-03-01 14:51:53.215 [INF] Livro encontrado com ID 7: 'Sistemas Operacionais'
+2025-03-01 14:51:53.219 [DBG] Iniciando exclusão do livro ID: 7
+2025-03-01 14:51:53.219 [DBG] Iniciando busca de livro por ID: 7
+2025-03-01 14:51:53.219 [DBG] Conexão com banco de dados aberta para busca de livro por ID: 7
+2025-03-01 14:51:53.220 [INF] Livro encontrado com ID 7: 'Sistemas Operacionais'
+2025-03-01 14:51:53.221 [DBG] Conexão com banco de dados aberta para exclusão do livro ID: 7
+2025-03-01 14:51:53.224 [INF] Livro excluído com sucesso: ID 7, Título 'Sistemas Operacionais'
+2025-03-01 14:51:53.225 [INF] Controller: Livro excluído com sucesso ID: 7, Título: 'Sistemas Operacionais'
+2025-03-01 14:52:04.554 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 14:52:04.554 [DBG] Iniciando busca de todos os livros
+2025-03-01 14:52:04.555 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 14:52:04.555 [INF] Busca de todos os livros concluída: 2 livros encontrados
+2025-03-01 14:52:04.557 [INF] Controller: 2 livros listados com sucesso
+2025-03-01 14:55:02.499 [INF] Sistema de Logs inicializado com sucesso
+2025-03-01 14:55:02.547 [INF] Aplicação iniciada
+2025-03-01 14:55:02.550 [INF] Inicializando banco de dados
+2025-03-01 14:55:02.624 [INF] Banco de dados inicializado com sucesso
+2025-03-01 14:55:03.637 [DBG] Configurando dependências...
+2025-03-01 14:55:03.638 [DBG] LivroController inicializado
+2025-03-01 14:55:03.639 [DBG] Dependências configuradas com sucesso
+2025-03-01 14:55:03.639 [INF] Iniciando interface do usuário
+2025-03-01 14:55:06.408 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 14:55:06.408 [DBG] Iniciando busca de todos os livros
+2025-03-01 14:55:06.409 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 14:55:06.422 [INF] Busca de todos os livros concluída: 2 livros encontrados
+2025-03-01 14:55:06.424 [INF] Controller: 2 livros listados com sucesso
+2025-03-01 15:26:03.237 [INF] Sistema de Logs inicializado com sucesso
+2025-03-01 15:26:03.312 [INF] Aplicação iniciada
+2025-03-01 15:26:03.322 [INF] Inicializando banco de dados
+2025-03-01 15:26:03.422 [INF] Banco de dados inicializado com sucesso
+2025-03-01 15:26:04.426 [DBG] Configurando dependências...
+2025-03-01 15:26:04.428 [DBG] LivroController inicializado
+2025-03-01 15:26:04.428 [DBG] Dependências configuradas com sucesso
+2025-03-01 15:26:04.428 [INF] Iniciando interface do usuário
+2025-03-01 15:26:06.439 [DBG] Controller: Solicitação para listar todos os livros
+2025-03-01 15:26:06.440 [DBG] Iniciando busca de todos os livros
+2025-03-01 15:26:06.440 [DBG] Conexão com banco de dados aberta para busca de todos os livros
+2025-03-01 15:26:06.452 [INF] Busca de todos os livros concluída: 2 livros encontrados
+2025-03-01 15:26:06.454 [INF] Controller: 2 livros listados com sucesso
+2025-03-01 15:26:16.517 [INF] Usuário encerrou a aplicação

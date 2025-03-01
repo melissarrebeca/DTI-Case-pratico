@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  dtilivraria:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Para aplicações de console, usamos o modo interativo
+    stdin_open: true
+    tty: true
+    volumes:
+      - sqlite-data:/app/Database
+      - logs-data:/app/Logs
+    restart: "no"  # Não reiniciar automaticamente aplicações de console
+
+volumes:
+  sqlite-data:
+    # Persistência dos dados do SQLite
+  logs-data:
+    # Persistência dos logs
